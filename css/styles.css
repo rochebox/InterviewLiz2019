@@ -1,0 +1,51 @@
+/* styles for interview */
+/*  called css/styles */
+
+body {
+	background-color: rgb(91, 198, 234);
+	margin: 0;
+	padding: 0;
+}
+
+.stayPut{
+	position: fixed;
+	width: 100%;
+}
+
+h1.topHeading {
+	font-family: 'Sarabun', sans-serif;
+	color: rgb(200,0, 0);
+	background-color: rgb(22, 36, 135);
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	font-size: 5.0em;
+	margin: 0;
+
+}
+/* two ways to center a picture */
+/* way #1 */
+
+div.pics {
+	text-align: center;
+}
+
+div.menuBar {
+	width: 100%;
+	margin:0;
+	background-color: dodgerblue;
+}
+.menuB {
+	float: left;
+	width: 24%;
+	color: orange;
+	font-size: 3.0em;
+}
+.pagematerial {
+	padding-top: 15%;
+	float: none;
+}
+p {
+	float: none;
+}
+
