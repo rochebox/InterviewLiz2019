@@ -10,9 +10,17 @@ body {
 	padding: 0;
 }
 
+audio {
+	display:none;
+
+}
+
 .stayPut{
 	position: fixed;
 	width: 100%;
+	margin:0;
+	top: 0;
+
 }
 
 /*
@@ -82,14 +90,22 @@ h2.subHeading {
 	float:none;
 	font-family: 'Sigmar One', cursive;
 	color: rgb(200,0, 0);
-	padding-top: 1.0%;
+	
 	padding-bottom: 1.0%;
 	text-align: center;
 	font-size: 2.5em;
-	margin: 0;
+	/*margin: 0; */
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
+    width:100%;
+}
+h2.topPad {
+	padding-top: 1.0%;
+}
 
+h2.noTopPad{
+	padding-top: 0;
+	margin:0;
 }
 /* two ways to center a picture */
 /* way #1 */
@@ -107,7 +123,7 @@ div.menuBar {
 	padding-left: 10%;
 	padding-top: 0.5%;
 	width: 100%;
-	height: 4.75vw;
+	height: 5.0vw;
 	margin:0;
 	background-color: dodgerblue;
 }
@@ -119,10 +135,11 @@ div.menuBar {
 	float: left;
 	width: 20%;
 	/* color: orange; */
-	font-size: 2.7em;
+	font-size: 4.0vw;
 	text-align: center;
 	-webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: rgb(22, 36, 135);
+   	height:100%;
 }
 
 
@@ -163,12 +180,19 @@ a.menuLink:active{
 }
 div.pagematerial {
 	float: none;
+	margin-top:12%;
 }
 
 #firstPic {
 	padding-top: 20%;
+	padding-bottom: 1%;
 }
-p#pageText {
+
+#futurepic {
+	margin-top: 21%;
+	
+}
+p.pageText  {
 	/* font-family: 'Sigmar One', cursive; */
 	font-family: 'Caveat', cursive;
 	float: none;
@@ -178,10 +202,39 @@ p#pageText {
 	padding-right:15%;
 	padding-top:0;
 	margin-top:0;
+	text-align:left;
+}
+
+ul.pageText {
+
+	font-family: 'Caveat', cursive;
+	float: none;
+	font-size: 2.0em;
+	color: rgb(58, 7, 198);
+	padding-left:15%;
+	padding-right:15%;
+	padding-top:0;
+	margin-top:0;
+	margin-right:auto;
+	margin-left:25%;
+
+
 }
 
 .bottomPad {
 	padding-bottom: 30%;
+}
+
+.bottomPadFavs {
+	padding-bottom: 20%;
+}
+
+.topPad{
+	padding-top: 30%;
+}
+
+.topPadFavs{
+	padding-top: 12%;
 }
 
 
@@ -240,3 +293,85 @@ iframe{
 	float:right;
 }
 
+#futureSong {
+	width:0;
+	height: 0;
+	margin:0;
+}
+
+.pagefloat {
+	float: left;
+}
+
+
+
+
+.splitpage {
+	width:49%;
+	float: left;
+}
+
+.insplit {
+	text-align:center;
+	width:100%;
+	padding: 3%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.pmattopmarg {
+	padding-top:20%;
+}
+a.historyLink:link {
+	text-decoration: none;
+	color: rgb(58, 7, 198);
+	font-size: 2.0vw;
+	font-family: 'Caveat', cursive;
+	float: left;
+	text-align: center;
+
+
+}
+
+
+
+
+a.historyLink:hover{
+	color: red;
+	text-decoration: none;
+	font-size: 2.05vw;
+	text-align: center;
+	margin-left:-1%;
+	
+	
+}
+
+
+a.historyLink:visited{
+	text-decoration: none;
+	color: rgb(58, 7, 198);
+	font-size: 2.0vw;
+	text-align: center;
+	
+}
+
+a.historyLink:active{
+	color: rgb(255, 141, 35);
+}
+
+p.centerPar{
+	width:100%;
+	padding-right:30%;
+	padding-left: 30%;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+}
+li.foodList {
+	padding-bottom:5%;
+}
+
+li.foodSubList {
+	font-size: 0.9em;
+	color: dodgerblue;
+}
